@@ -20,7 +20,9 @@ for b in sys.argv[1:]:
     bytes = 0
     for i in data[topic]:
       bytes += i
-    print (bytes,'\t', topic)
+    count = len(data[topic])
+    avg = bytes/float(count)
+    print (bytes,'total bytes\t',avg,'avg per msg\t', count, 'msgs\t', topic)
     grand_total += bytes
   print(grand_total)
   
