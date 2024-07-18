@@ -3,6 +3,7 @@
 #include "progressbar.hpp"
 #include <iostream>
 #include <tf2_msgs/TFMessage.h>
+#include <fstream>
 
 void usage()
 { 

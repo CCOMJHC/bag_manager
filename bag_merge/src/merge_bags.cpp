@@ -4,7 +4,7 @@
 #include "progressbar.hpp"
 #include <ctime>
 #include <iostream>
-
+#include <fstream>
 
 // -o, --output Output bag file
 // -c, --compression Compression format: none, lw4 or bz2 (default lw4)
